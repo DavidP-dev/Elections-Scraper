@@ -25,12 +25,23 @@ Runnig code:
 Hello. Scrapping elections results for Kladno
 
 Found district link for Kladno: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2103
+
 Found city link for Běleč #535010: https://volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=2&xobec=535010&xvyber=2103
+
 RESULT: ['535010', 'Běleč', 262, 181, 181, 'Občanská demokratická strana|Česká str.sociálně demokrat.|STAROSTOVÉ A NEZÁVISLÍ|Komunistická str.Čech a Moravy|Strana zelených|ROZUMNÍ-stop migraci,diktát.EU|Česká pirátská strana|TOP 09|ANO 2011|Křesť.demokr.unie-Čs.str.lid.|REALISTÉ|SPORTOVCI|Dělnic.str.sociální spravedl.|Svob.a př.dem.-T.Okamura (SPD)|Strana Práv Občanů']
+
 ...
+
 Found city link for Žižice #533157: https://volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=2&xobec=533157&xvyber=2103
+
 RESULT: ['533157', 'Žižice', 487, 298, 296, 'Občanská demokratická strana|Řád národa - Vlastenecká unie|Česká str.sociálně demokrat.|STAROSTOVÉ A NEZÁVISLÍ|Komunistická str.Čech a Moravy|Strana zelených|ROZUMNÍ-stop migraci,diktát.EU|Strana svobodných občanů|Blok proti islam.-Obran.domova|Česká pirátská strana|TOP 09|ANO 2011|SPR-Republ.str.Čsl. M.Sládka|SPORTOVCI|Dělnic.str.sociální spravedl.|Svob.a př.dem.-T.Okamura (SPD)']
 
 Final result:
 
-Final result of this code is creation of Kladno.csv file. This file is stored in this repository.  
+Final result of this code is creation of Kladno.csv file. This file is stored in this repository. 
+
+Example of raw text of Kladno.csv file:
+
+CITY_CODE;CITY_NAME;TOTAL_VOTERS;ISSUED_VOTES;VALID_VOTES;PARTIES
+
+535010;Běleč;262;181;181;Občanská demokratická strana|Česká str.sociálně demokrat.|STAROSTOVÉ A NEZÁVISLÍ|Komunistická str.Čech a Moravy|Strana zelených|ROZUMNÍ-stop migraci,diktát.EU|Česká pirátská strana|TOP 09|ANO 2011|Křesť.demokr.unie-Čs.str.lid.|REALISTÉ|SPORTOVCI|Dělnic.str.sociální spravedl.|Svob.a př.dem.-T.Okamura (SPD)|Strana Práv Občanů
