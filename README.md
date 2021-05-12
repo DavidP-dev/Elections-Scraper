@@ -2,15 +2,18 @@
 This code is my third Engeto Academy project. It can download election data from selected distritct from Czech statistic bureau in this page https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ and export it to "csv" file.
 
 LIBRARIES INSTALLATION
+
 Libraries used in this code are described in included requirements.txt file. It is remmonded to use new virtual enviroment for running this code. You can install libraries from command line this way:
 $ pip3 --version                     # for version check
 $ pip3 install -r requirements.txt   # for libraries installation
 
 LAUNCHING PROGRAM
+
 It is required to use two arguments for launching this program. The first is name of selected district and the second is chosen name of .csv file that you want to create for storing results. Command looks like this:
 $ python Elections Scraper.py <name of district> <chosen name of .csv file>
   
 USING CODE EXAMPLE
+
 Launching code:
 $ python Elections Scraper.py Kladno Kladno.csv
 Runnig code:
