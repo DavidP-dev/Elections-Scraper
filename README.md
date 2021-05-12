@@ -6,6 +6,7 @@ LIBRARIES INSTALLATION
 Libraries used in this code are described in included requirements.txt file. It is recommended to use new virtual enviroment for running this code. You can install libraries from command line this way:
 
 $ pip3 --version                     # for version check
+
 $ pip3 install -r requirements.txt   # for libraries installation
 
 LAUNCHING PROGRAM
